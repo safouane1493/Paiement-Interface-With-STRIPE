@@ -1,0 +1,30 @@
+{
+  "name": "payment",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:8080",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.3.1",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "nodemon": "^1.19.2",
+    "payment-icons": "^1.2.1",
+    "react": "^16.9.0",
+    "react-bootstrap": "^1.0.0-beta.12",
+    "react-credit-cards": "^0.8.0",
+    "react-dom": "^16.9.0",
+    "react-scripts": "0.9.x",
+    "react-stripe-elements": "^5.0.0",
+    "reactstrap": "^8.0.1",
+    "stripe": "^7.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "dev": "nodemon server/server.js"
+  }
+}
